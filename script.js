@@ -225,5 +225,6 @@ function handleKeypress(event){
 	}
 }
 document.addEventListener("keydown", handleKeypress)
+document.getElementById('jumpButton').onclick = function(){handleKeypress({key: " "})}
 
 main()
