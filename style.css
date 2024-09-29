@@ -34,3 +34,17 @@ body {
 	top: 30px;
 	font-size: 70px;
 }
+
+.container {
+	position: absolute;
+	bottom: 30px;
+	width: 98%;
+	text-align: center;
+}
+
+#jumpButton {
+	height: 666px;
+	width: 1000px;
+	border: none;
+	background: none;
+}
