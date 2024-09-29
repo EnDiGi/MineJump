@@ -13,7 +13,7 @@
     body::before {
         visibility: visible;
         align-items: center;
-        content: "Ruota il dispositivo per visualizzare il sito.";
+        content: "Rotate the device to continue on this website";
         font-size: 65px;
     }
 }
