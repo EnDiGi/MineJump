@@ -1,0 +1,36 @@
+@media screen and (orientation: portrait) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        background-color: rgb(14, 175, 187);
+        color: #fff;
+        margin: 0;
+    }
+
+    body::before {
+        content: "Ruota il dispositivo per visualizzare il sito.";
+    }
+}
+
+@font-face {
+    font-family: 'pixel arial';
+    src: url('fonts/pixel-arial.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	text-align: center
+}
+
+#scoreCounter {
+	color: white;
+	font-weight: bolder;
+	font-family: 'pixel arial', 'arial';
+	position: absolute;
+	top: 30px;
+	font-size: 70px;
+}
